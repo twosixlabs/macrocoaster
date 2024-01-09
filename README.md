@@ -1,6 +1,3 @@
-# NOTE
-This is a WIP (work-in-progress) repo. When finalized, this repo will go down.
-
 # Macrocoaster
 
 Thank you for picking up a macrocoaster from TwoSix Technologies!
@@ -127,6 +124,6 @@ int get_prev_layer(int currlayer) {
 ```
 is not possible. <img src="https://cdn3.emoji.gg/emojis/pensive_cowboy.png" width="20px" height="20px" alt=":pensive_cowboy:"></a>
 
-## Cases (WIP)
+<!-- ## Cases (WIP)
 STL/3MF files for 3D-printable cases can be found here:
-* [Nothing yet](link.needed)
+* [Nothing yet](link.needed) -->
