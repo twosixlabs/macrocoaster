@@ -43,7 +43,7 @@ The Macrocoaster has two main uses: as a coaster, and as a macropad!
 * Caps-lock indicator via OLED
 
 ## BoM (Bill of Materials)
-See the [interactive BoM](https://htmlpreview.github.io/?https://github.com/Engineer-26/macrocoaster/blob/main/hardware/BoM/ibom.html) :)
+See the [interactive BoM](https://htmlpreview.github.io/?https://github.com/twosixlabs/macrocoaster/blob/main/hardware/BoM/ibom.html) :)
 <!-- Note: Update link to future repo! -->
 
 #### Required:
