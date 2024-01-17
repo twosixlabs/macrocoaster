@@ -124,6 +124,10 @@ int get_prev_layer(int currlayer) {
 ```
 is not possible. <img src="https://cdn3.emoji.gg/emojis/pensive_cowboy.png" width="20px" height="20px" alt=":pensive_cowboy:"></a>
 
-<!-- ## Cases (WIP)
-STL/3MF files for 3D-printable cases can be found here:
-* [Nothing yet](link.needed) -->
+## Cases
+STL/3MF files for 3D-printable cases can be found in the [cases](./hardware/Cases) folder :)
+
+## Builds
+If you feel inclined, it would be amazing if if/after you complete a macrocoaster build, you post it in the [builds](./builds) folder! I posted [my build(s)](./builds/Engineer-2) there, feel free to copy that folder and use it as a template :)
+
+If you want to share your build, please open a PR with your setup in its own subfolder in the builds folder!
