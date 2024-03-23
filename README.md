@@ -85,12 +85,18 @@ See the [interactive BoM](https://htmlpreview.github.io/?https://github.com/twos
 ## Programming
 1. Install `qmk`
     * [QMK install guide](https://docs.qmk.fm/#/newbs_building_firmware)
-        * Note: Merging the macrocoaster into qmk is underway, for now you'll need to define a new keyboard (`qmk new-keyboard`).
+        * Note: Merging the macrocoaster into qmk is underway.
+        * For now
+          * Define a new keyboard `qmk new-keyboard`
+          * Choose last option `none of the above`
+          * Choose your chip, although it doesn't matter. I selected `kb2040`
 2. Download the code
     * `git clone https://github.com/twosixtech/macrocoaster && cd macrocoaster/firmware`
 3. Compile and flash for your microcontroller
     * You will need to press the Flash/boot/etc. button down when loading the code for the first time (QMK will prompt you ) 
         * All later flashes can be done with the [magic-bootloader](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_bootmagic.md) key :)
+     * delete everything in the macrocoaster dir defined with `qmk new-keyboard` above
+     * copy   `macrocoaster/firmware` into your qmk home dir and difined firmware for macrocoaster `qmk_firmware/keyboards/macrocoaster`. Like this `cp -r * ~/qmk_firmware/keyboards/macrocoaster` or similar.
     * Elite-C/Pro-micro
         * `qmk compile -kb macrocoaster -km default && qmk flash -bl dfu -km default -kb macrocoaster`
     * kb2040
@@ -100,6 +106,9 @@ See the [interactive BoM](https://htmlpreview.github.io/?https://github.com/twos
 By default, the macropad comes with (roughly) [this layout](./firmware/keymaps/default/keymap.c):
 ![](./images/keymap_default.png)
 
+
+# Notes
+To put the KB2040 into programming mode, with the USB port oriented up, hold the bottom left button down, and then press the right and release the left. As documented [here](https://golem.hu/guide/kmk-firmware/)
 
 ## Customization (WIP)
 Almost all customization will be done in the [`keymap.c`](./firmware/keymaps/default/keymap.c) file.
