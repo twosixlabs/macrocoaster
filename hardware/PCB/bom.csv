@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+Brd1,128x64OLED,1,SSD1306,
+"D1, D10, D11, D2, D3, D4, D5, D6, D7, D8, D9",D_SOD123_axial,11,D,
+"SW1, SW10, SW11, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9",MX_PCB_1.00u,11,Switch,
+"SW13, SW14",RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,2,RotaryEncoder_Switch,
+U1,Elite-C-castellated-29pin-holes,1,Elite-C,
